@@ -1,6 +1,6 @@
 {
-  "name": "xlsx-template",
-  "version": "1.4.4",
+  "name": "@excelerum/xlsx-template",
+  "version": "1.0.1",
   "description": "Generate .xlsx (Excel) files from templates built in Excel",
   "main": "./lib/index",
   "files": [
@@ -17,20 +17,24 @@
     {
       "name": "Andrii Kurdiumov",
       "email": "kant2002@gmail.com"
+    },
+    {
+      "name": "Le Kha Huynh",
+      "email": "khahl@excelerum.com"
     }
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/optilude/xlsx-template.git"
+    "url": "git+ssh://git@github.com/excelerum/xlsx-template.git"
   },
   "bugs": {
-    "url": "http://github.com/optilude/xlsx-template/issues"
+    "url": "http://github.com/excelerum/xlsx-template/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/optilude/xlsx-template/raw/master/LICENSE"
+      "url": "http://github.com/excelerum/xlsx-template/raw/master/LICENSE"
     }
   ],
   "jest": {
@@ -65,7 +69,7 @@
     "@types/node": "^14.0.27",
     "jest": "^27.5.1",
     "ts-jest": "^27.1.3",
-    "typescript": "^3.9.7"
+    "typescript": "^4.6.3"
   },
   "scripts": {
     "compile": "tsc",
